@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -35,4 +36,13 @@ header {
 .container {
     display: flex;
     justify-content: space-between;
+}
+
+.discounted {
+    font-weight: bold;
+    color: red;
+}
+
+.original {
+    text-decoration: line-through;
 }
