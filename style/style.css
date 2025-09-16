@@ -36,6 +36,7 @@ header {
 .container {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .discounted {
@@ -45,4 +46,13 @@ header {
 
 .original {
     text-decoration: line-through;
+}
+
+.fire-left {
+
+  position: absolute;
+  top: 18px;
+  left: 317px;
+  font-size: 1.5rem;
+  background-color: white;
 }
