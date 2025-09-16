@@ -4,7 +4,7 @@ body {
 
 header {
     height: 50px;
-    background-color: orange;
+    background-color: #ff6900;
     
 }
 
@@ -12,11 +12,27 @@ header {
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 15px;
 }
 
 .logo img {
     height: 20px;
     width: 80px;
+}
+
+.corpo {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 40px;
+}
+
+.corpo img {
+    height: 500px;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
 }
